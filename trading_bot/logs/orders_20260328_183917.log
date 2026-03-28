@@ -1,0 +1,2 @@
+2026-03-28 18:39:17 | INFO     | orders | Logger initialised — file: logs\orders_20260328_183917.log
+2026-03-28 18:39:17 | DEBUG    | orders | validate_order_inputs | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop=None

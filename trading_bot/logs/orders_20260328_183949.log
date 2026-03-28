@@ -1,0 +1,3 @@
+2026-03-28 18:39:49 | INFO     | orders | Logger initialised — file: logs\orders_20260328_183949.log
+2026-03-28 18:39:49 | DEBUG    | orders | validate_order_inputs | symbol=BTCUSDT side=SELL type=LIMIT qty=0.002 price=85000.0 stop=None
+2026-03-28 18:39:50 | INFO     | orders | Order result | orderId=13002157761 status=NEW executedQty=0.000 avgPrice=0.00

@@ -1,0 +1,3 @@
+2026-03-28 18:48:56 | INFO     | cli | Logger initialised — file: logs\cli_20260328_184856.log
+2026-03-28 18:48:56 | INFO     | cli | CLI place | symbol=BTCUSDT side=SELL type=STOP_MARKET qty=0.002 price=None stop=80000.0
+2026-03-28 18:48:57 | ERROR    | cli | API error: [-4120] Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.

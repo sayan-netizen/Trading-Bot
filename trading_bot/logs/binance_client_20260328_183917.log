@@ -1,0 +1,5 @@
+2026-03-28 18:39:17 | INFO     | binance_client | Logger initialised — file: logs\binance_client_20260328_183917.log
+2026-03-28 18:39:17 | INFO     | binance_client | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2026-03-28 18:39:17 | DEBUG    | binance_client | → POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1774703357132, 'recvWindow': 5000}
+2026-03-28 18:39:18 | DEBUG    | binance_client | ← POST /fapi/v1/order | status: 400 | body: {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-03-28 18:39:18 | ERROR    | binance_client | API error [-4164]: Order's notional must be no smaller than 100 (unless you choose reduce only).

@@ -1,0 +1,2 @@
+2026-03-28 18:39:40 | INFO     | cli | Logger initialised — file: logs\cli_20260328_183940.log
+2026-03-28 18:39:40 | INFO     | cli | CLI place | symbol=BTCUSDT side=BUY type=MARKET qty=0.002 price=None stop=None

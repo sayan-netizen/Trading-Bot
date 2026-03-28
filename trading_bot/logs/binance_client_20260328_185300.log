@@ -1,0 +1,5 @@
+2026-03-28 18:53:00 | INFO     | binance_client | Logger initialised — file: logs\binance_client_20260328_185300.log
+2026-03-28 18:53:00 | INFO     | binance_client | Placing SELL STOP_MARKET order | symbol=BTCUSDT qty=0.002 price=None stopPrice=80000.0
+2026-03-28 18:53:00 | DEBUG    | binance_client | → POST /fapi/v1/algoOrder | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP_MARKET', 'algoType': 'CONDITIONAL', 'triggerPrice': '80000.0', 'quantity': '0.002', 'timestamp': 1774704180202, 'recvWindow': 5000}
+2026-03-28 18:53:00 | DEBUG    | binance_client | ← POST /fapi/v1/algoOrder | status: 400 | body: {"code":-2021,"msg":"Order would immediately trigger."}
+2026-03-28 18:53:00 | ERROR    | binance_client | API error [-2021]: Order would immediately trigger.

@@ -1,0 +1,2 @@
+2026-03-28 18:33:08 | INFO     | cli | Logger initialised — file: logs\cli_20260328_183308.log
+2026-03-28 18:33:08 | ERROR    | cli | Missing API credentials.

@@ -1,0 +1,5 @@
+2026-03-28 18:50:03 | INFO     | binance_client | Logger initialised — file: logs\binance_client_20260328_185003.log
+2026-03-28 18:50:03 | INFO     | binance_client | Placing SELL STOP_MARKET order | symbol=BTCUSDT qty=0.002 price=None stopPrice=80000.0
+2026-03-28 18:50:03 | DEBUG    | binance_client | → POST /fapi/v1/algoOrder | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP_MARKET', 'quantity': '0.002', 'stopPrice': '80000.0', 'timestamp': 1774704003789, 'recvWindow': 5000}
+2026-03-28 18:50:04 | DEBUG    | binance_client | ← POST /fapi/v1/algoOrder | status: 400 | body: {"code":-1102,"msg":"Mandatory parameter 'algotype' was not sent, was empty/null, or malformed."}
+2026-03-28 18:50:04 | ERROR    | binance_client | API error [-1102]: Mandatory parameter 'algotype' was not sent, was empty/null, or malformed.

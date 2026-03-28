@@ -1,0 +1,5 @@
+2026-03-28 18:43:15 | INFO     | binance_client | Logger initialised — file: logs\binance_client_20260328_184315.log
+2026-03-28 18:43:15 | INFO     | binance_client | Placing SELL STOP_MARKET order | symbol=BTCUSDT qty=0.002 price=None stopPrice=80000.0
+2026-03-28 18:43:15 | DEBUG    | binance_client | → POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP_MARKET', 'quantity': '0.002', 'stopPrice': '80000.0', 'timestamp': 1774703595444, 'recvWindow': 5000}
+2026-03-28 18:43:16 | DEBUG    | binance_client | ← POST /fapi/v1/order | status: 400 | body: {"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-03-28 18:43:16 | ERROR    | binance_client | API error [-4120]: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.

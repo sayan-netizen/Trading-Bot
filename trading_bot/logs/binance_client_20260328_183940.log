@@ -1,0 +1,5 @@
+2026-03-28 18:39:40 | INFO     | binance_client | Logger initialised — file: logs\binance_client_20260328_183940.log
+2026-03-28 18:39:40 | INFO     | binance_client | Placing BUY MARKET order | symbol=BTCUSDT qty=0.002 price=None stopPrice=None
+2026-03-28 18:39:40 | DEBUG    | binance_client | → POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002', 'timestamp': 1774703380445, 'recvWindow': 5000}
+2026-03-28 18:39:41 | DEBUG    | binance_client | ← POST /fapi/v1/order | status: 200 | body: {"orderId":13002157495,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"dFxt0okJIYHkrgN2mu9NkZ","price":"0.00","avgPrice":"0.00","origQty":"0.002","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTim
+2026-03-28 18:39:41 | INFO     | binance_client | Order accepted | orderId=13002157495 status=NEW

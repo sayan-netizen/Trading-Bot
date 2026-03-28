@@ -1,0 +1,3 @@
+2026-03-28 18:35:24 | INFO     | binance_client | Logger initialised — file: logs\binance_client_20260328_183524.log
+2026-03-28 18:35:24 | DEBUG    | binance_client | → GET /fapi/v1/ping | params: {}
+2026-03-28 18:35:25 | DEBUG    | binance_client | ← GET /fapi/v1/ping | status: 200 | body: {}

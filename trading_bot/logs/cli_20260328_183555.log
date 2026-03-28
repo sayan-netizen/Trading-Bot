@@ -1,0 +1,2 @@
+2026-03-28 18:35:55 | INFO     | cli | Logger initialised — file: logs\cli_20260328_183555.log
+2026-03-28 18:35:56 | ERROR    | cli | Failed to fetch account info: [-1021] Timestamp for this request was 1000ms ahead of the server's time.

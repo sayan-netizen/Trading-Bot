@@ -1,0 +1,3 @@
+2026-03-28 18:38:14 | INFO     | binance_client | Logger initialised — file: logs\binance_client_20260328_183814.log
+2026-03-28 18:38:14 | DEBUG    | binance_client | → GET /fapi/v2/account | params: {'timestamp': 1774703294394, 'recvWindow': 5000}
+2026-03-28 18:38:17 | ERROR    | binance_client | Network connection error: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v2/account?timestamp=1774703294394&recvWindow=5000&signature=f8bcd2e0c7d2b35605cbd83dc9fd6d9da7b0374e87eb862c5e1e3d00c950e5ca (Caused by NameResolutionError("HTTPSConnection(host='testnet.binancefuture.com', port=443): Failed to resolve 'testnet.binancefuture.com' ([Errno 11001] getaddrinfo failed)"))

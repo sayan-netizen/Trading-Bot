@@ -1,0 +1,5 @@
+2026-03-28 18:40:04 | INFO     | binance_client | Logger initialised — file: logs\binance_client_20260328_184004.log
+2026-03-28 18:40:04 | INFO     | binance_client | Placing BUY MARKET order | symbol=ETHUSDT qty=0.05 price=None stopPrice=None
+2026-03-28 18:40:04 | DEBUG    | binance_client | → POST /fapi/v1/order | params: {'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.05', 'timestamp': 1774703404789, 'recvWindow': 5000}
+2026-03-28 18:40:06 | DEBUG    | binance_client | ← POST /fapi/v1/order | status: 200 | body: {"orderId":8622902247,"symbol":"ETHUSDT","status":"NEW","clientOrderId":"KQhJFP0yzLnswaz5ihv1Ib","price":"0.00","avgPrice":"0.00","origQty":"0.050","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime
+2026-03-28 18:40:06 | INFO     | binance_client | Order accepted | orderId=8622902247 status=NEW

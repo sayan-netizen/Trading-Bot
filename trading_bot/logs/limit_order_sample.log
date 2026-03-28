@@ -1,0 +1,12 @@
+2025-08-01 14:31:15 | INFO     | trading_bot | Logger initialised — file: logs/trading_bot_20250801_143115.log
+2025-08-01 14:31:15 | INFO     | trading_bot | Logger initialised — file: logs/trading_bot_20250801_143115.log
+2025-08-01 14:31:15 | INFO     | cli | Logger initialised — file: logs/trading_bot_20250801_143115.log
+2025-08-01 14:31:15 | INFO     | binance_client | Logger initialised — file: logs/trading_bot_20250801_143115.log
+2025-08-01 14:31:15 | INFO     | orders | Logger initialised — file: logs/trading_bot_20250801_143115.log
+2025-08-01 14:31:15 | INFO     | cli | CLI place | symbol=ETHUSDT side=SELL type=LIMIT qty=0.01 price=3200.0 stop=None
+2025-08-01 14:31:15 | DEBUG    | orders | validate_order_inputs | symbol=ETHUSDT side=SELL type=LIMIT qty=0.01 price=3200.0 stop=None
+2025-08-01 14:31:15 | INFO     | binance_client | Placing SELL LIMIT order | symbol=ETHUSDT qty=0.01 price=3200.0 stopPrice=None
+2025-08-01 14:31:15 | DEBUG    | binance_client | → POST /fapi/v1/order | params: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.01', 'price': '3200.0', 'timeInForce': 'GTC', 'timestamp': 1754051475921, 'recvWindow': 5000}
+2025-08-01 14:31:16 | DEBUG    | binance_client | ← POST /fapi/v1/order | status: 200 | body: {"orderId":1920847361,"symbol":"ETHUSDT","status":"NEW","clientOrderId":"web_c5Jkq82QVRizUNIa3WnX","price":"3200","avgPrice":"0.00000","origQty":"0.01","executedQty":"0","cumQty":"0","cumQuote":"0","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","updateTime":1754051476042}
+2025-08-01 14:31:16 | INFO     | binance_client | Order accepted | orderId=1920847361 status=NEW
+2025-08-01 14:31:16 | INFO     | orders | Order result | orderId=1920847361 status=NEW executedQty=0 avgPrice=0.00000

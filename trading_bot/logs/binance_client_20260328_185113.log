@@ -1,0 +1,5 @@
+2026-03-28 18:51:13 | INFO     | binance_client | Logger initialised — file: logs\binance_client_20260328_185113.log
+2026-03-28 18:51:13 | INFO     | binance_client | Placing SELL STOP_MARKET order | symbol=BTCUSDT qty=0.002 price=None stopPrice=80000.0
+2026-03-28 18:51:13 | DEBUG    | binance_client | → POST /fapi/v1/algoOrder | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP_MARKET', 'quantity': '0.002', 'stopPrice': '80000.0', 'algoType': 'VP', 'timestamp': 1774704073292, 'recvWindow': 5000}
+2026-03-28 18:51:13 | DEBUG    | binance_client | ← POST /fapi/v1/algoOrder | status: 400 | body: {"code":-4500,"msg":"Invalid algoType."}
+2026-03-28 18:51:13 | ERROR    | binance_client | API error [-4500]: Invalid algoType.
